@@ -1,0 +1,44 @@
+@import '../styles/helpers/variables.less';
+
+@font-face {
+    font-family: 'latob';
+    src: url('../fonts/lato-bold.woff2') format('woff2'),
+         url('../fonts/lato-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latom';
+    src: url('../fonts/lato-medium.woff2') format('woff2'),
+         url('../fonts/lato-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lator';
+    src: url('../fonts/lato-regular.woff2') format('woff2'),
+         url('../fonts/lato-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latot';
+    src: url('../fonts/lato-thin.woff2') format('woff2'),
+         url('../fonts/lato-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular.woff2') format('woff2'),
+         url('../fonts/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'chinacyrregular';
+    src: url('../fonts/ofont.ru_chinacyr.woff2') format('woff2'),
+         url('../fonts/ofont.ru_chinacyr.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

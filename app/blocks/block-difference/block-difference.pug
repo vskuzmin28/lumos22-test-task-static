@@ -1,0 +1,25 @@
+mixin difference(data)
+    - data = data || {};
+    section.block-difference(class = data.class role = data.role)
+        .container.block-difference__container
+            .row
+                .col-lg-12
+                    h3.block-difference__title <strong>В ЧЕМ ОТЛИЧИЕ</strong> PDF-КОНСПЕКТОВ <br/> ОТ "ЗАОЧНОЙ" ВЕРСИИ КУРСА?
+                .col-lg-4.block-difference__margin.wow.fadeInUp
+                    .col-md-12.block-difference__column
+                        img.mx-auto.d-block.block-difference__column-preview(src="../img/difference/difference-1.png" alt="@@")
+                        p.block-difference__column-desc Вы получаете конспекты первых трех модулей курса "Предсказательный фэншуй 9 Дворцов"
+                
+                .col-lg-4.block-difference__margin.wow.fadeInUp
+                    .col-md-12.block-difference__column
+                        img.mx-auto.d-block.block-difference__column-preview(src="../img/difference/difference-0.png" alt="@@")
+                        p.block-difference__column-desc Видео-записи уроков отсутствуют, без обратной связи от Татьяны Панюшкиной и домашних заданий.
+                
+                .col-lg-4.block-difference__margin.wow.fadeInUp
+                    .col-md-12.block-difference__column
+                        img.mx-auto.d-block.block-difference__column-preview(src="../img/difference/difference-1.png" alt="@@")
+                        p.block-difference__column-desc Цена комплекта в 15 раз меньше, чем полная стоимость пакета "Мастер", конспекты которого Вы получите.
+
+                .col-lg-12.wow.fadeInUp
+                    .block-difference__line
+                        .block-difference__line-corner

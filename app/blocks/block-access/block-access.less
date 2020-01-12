@@ -1,0 +1,96 @@
+// block access
+
+.block-access {
+    min-height: 520px;
+    background: url('../img/block-access.jpg') no-repeat center;
+    background-size: cover;
+
+    .row {
+        position: relative;
+        min-height: 520px;
+        overflow: hidden;
+    }
+
+    &__container {
+        position: relative;
+    }
+
+    &__preview {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+
+        @media screen and (max-width: 990px) {
+            bottom: -130px;
+            width: 60%;
+            left: 20%;
+        }
+
+    }
+
+    &__title {
+        margin-top: 50px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #4B4949;
+
+        strong {
+            color: @red;
+        }
+
+    }
+
+    &__list {
+        margin: 0;
+        margin-top: -190px;
+        padding: 0;
+        list-style: none;
+
+        @media screen and (max-width: 990px) {
+            margin-top: -260px;
+            padding: 0 40px;
+        }
+
+        @media screen and (max-width: 767px) {
+            margin-top: -220px;
+            padding: 0 40px;
+        }
+
+        @media screen and (max-width: 370px) {
+            margin-top: -210px;
+            padding: 0 10px;
+        }
+
+        &-item {
+            position: relative;
+            margin-bottom: 20px;
+            font-family: lator;
+            font-size: 18px;
+            line-height: 22px;
+            color: rgba(0, 0, 0, 0.87);
+
+            &:before {
+                position: absolute;
+                top: 12px;
+                left: -60px;
+                width: 28px;
+                height: 3px;
+                background: @yellow;
+                content: "";
+
+                @media screen and (max-width: 760px) {
+                    display: none;
+                }
+
+            }
+
+        }
+
+    }
+
+}

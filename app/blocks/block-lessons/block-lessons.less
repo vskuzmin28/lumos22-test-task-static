@@ -1,0 +1,72 @@
+// block worth
+
+.block-lessons {
+    height: auto;
+    padding-bottom: 90px;
+
+    &__title {
+        margin-top: 0px;
+        font-family: lator;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 42px;
+        text-align: center;
+
+        @media screen and (max-width: 990px) {
+            font-size: 24px;
+        }
+
+        strong {
+            color: @red;
+        }
+
+    }
+
+    &__margin {
+        border: 10px solid transparent;
+    }
+
+    &__column {
+        height: 100%;
+        padding: 0 9px;
+        margin-top: 30px;
+        border: 3px solid #FAD264;
+        
+        box-sizing: border-box;
+
+        @media screen and (max-width: 990px) {
+            padding: 0 40px;
+        }
+
+        &-preview {
+            width: 250px;
+
+            @media screen and (max-width: 990px) {
+                width: 50%;
+            }
+
+        }
+
+        &-title {
+            margin-top: 30px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.87);
+        }
+
+        &-desc {
+            font-family: lator;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.87);
+        }
+    }
+
+}

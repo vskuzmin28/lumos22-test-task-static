@@ -1,0 +1,14 @@
+mixin buy(data)
+    - data = data || {};
+    section.block-buy(class = data.class role = data.role)
+        .container.block-buy__container
+            .row
+                .col-lg-2
+                .col-lg-8
+                    .block-buy__box#buy
+                        h3.block-buy__title Стоимость PDF-конспектов
+                        span.block-buy__cost 2 900 РУБ.
+                        a.button.linkCall(href="#" title="") приобрести конспекты
+                        p.block-buy__desc Заказать и оплатить комплект конспектов можно в течение 36 часов
+                        p.block-buy__timer-title ТАЙМЕР НА 36 ЧАСОВ
+                .col-lg-2

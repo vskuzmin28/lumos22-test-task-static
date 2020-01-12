@@ -1,0 +1,158 @@
+// header
+
+.header {
+    position: relative;
+    padding: 20px 0;
+    min-height: 74px;
+    text-align: center;
+
+    &__title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: @white;
+    }
+
+    &__logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        @media screen and (max-width: 990px) {
+            position: relative;
+        }
+
+        &:after {
+            @media screen and (max-width: 990px) {
+                top: -16px;
+                right: -80px;
+                position: absolute;
+                content: "";
+                width: 63px;
+                height: 1px;
+                background: #FFC34B;;
+            }
+        }
+
+        &:before {
+            @media screen and (max-width: 990px) {
+                top: -16px;
+                left: -80px;
+                position: absolute;
+                content: "";
+                width: 63px;
+                height: 1px;
+                background: #FFC34B;;
+            }
+        }
+
+    }
+
+}
+
+// main
+
+.block-main {
+    min-height: 436px;
+    background: url('../img/block-main.jpg') no-repeat center;
+    background-size: cover;
+
+
+    &__title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 66px;
+        color: @white;
+
+        @media screen and (max-width: 1200px) {
+            font-size: 40px;
+            text-align: center;
+            line-height: 54px;
+        }
+
+        @media screen and (max-width: 990px) {
+            font-size: 20px;
+            text-align: center;
+            line-height: 34px;
+        }
+
+        span {
+            font-family: ChinaCyr;
+            font-weight: 300;
+            letter-spacing: 3.8px;
+        }
+
+        .yellow {
+            color: @yellow;
+        }
+
+    }
+
+    &__line {
+        margin-top: -20px;
+        margin-right: 5%;
+        position: relative;
+        height: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        @media screen and (max-width: 990px) {
+            margin-top: 0;
+        }
+
+        &:before {
+            
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: #FAD264;
+            content: "";
+        }
+
+        &-star {
+            margin-top: -4px;
+            width: 14px;
+            height: 14px;
+            background: url('../img/star.svg') no-repeat;
+        }
+
+    }
+
+    &__desc {
+        width: 95%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: @white;
+
+        span {
+            color: @yellow;
+        }
+    }
+
+    &__preview {
+        margin-top: 10px;
+
+        @media screen and (max-width: 1200px) {
+            margin-top: 40px;
+            width: 140%;
+        }
+
+        @media screen and (max-width: 990px) {
+            margin-bottom: 20px;
+            margin-left: 16%;
+            width: 60%;
+        }
+
+    }
+
+}

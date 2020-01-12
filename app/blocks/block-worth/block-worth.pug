@@ -1,0 +1,16 @@
+mixin worth(data)
+    - data = data || {};
+    section.block-worth(class = data.class role = data.role)
+        .container.block-worth__container
+            .row
+                .col-lg-12
+                    h3.block-worth__title <strong>ПЛЮСЫ</strong> САМОСТОЯТЕЛЬНОГО ОБУЧЕНИЯ
+                .col-lg-4.block-worth__column.wow.fadeIn
+                    img.mx-auto.d-block.block-worth__column-preview(src="../img/worth/worth-1.png" alt="@@")
+                    p.block-worth__column-desc Вы изучаете уроки в свободное время и в удобном для себя режиме.
+                .col-lg-4.block-worth__column.wow.fadeIn
+                    img.mx-auto.d-block.block-worth__column-preview(src="../img/worth/worth-2.png" alt="@@")
+                    p.block-worth__column-desc Нет риска не успеть усвоить материал. Вы можете вернуться к обучению в любое удобное время.
+                .col-lg-4.block-worth__column.wow.fadeIn
+                    img.mx-auto.d-block.block-worth__column-preview(src="../img/worth/worth-3.png" alt="@@")
+                    p.block-worth__column-desc Материал хорошо структурирован, Вы сможете последовательно проходить этап за этапом.

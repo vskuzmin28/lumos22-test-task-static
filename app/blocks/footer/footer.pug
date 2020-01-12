@@ -1,0 +1,20 @@
+mixin footer(data)
+    - data = data || {};
+    footer.footer(class = data.class role = data.role)
+        .container
+            .row
+                .col-lg-4.col-md-6.footer__column
+                    h4.footer__column-title Служба поддержки
+                    a.footer__column-link(href="mailto:info@tatyana-panyushkina.com" title="") info@tatyana-panyushkina.com
+                .col-lg-5.col-md-6.footer__column.footer__column_border
+                    h4.footer__column-title Бесплатный звонок по России
+                    a.footer__column-phone(href="tel:88003500308" title="") 8 (800) 350-03-08 
+                    p.footer__column-title ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК
+                .col-lg-3.col-md-12.footer__column.footer__column_desc
+                    p ИП Панюшкина Т.П.
+                    p ОГРН 317745600182737<br/>ИНН 744900497027
+                    a(href="#" title="") Политика конфиденциальности
+        .container
+            .row
+                .col-md.footer__column
+                    p.footer__column-about © 2019, Система Предсказательный Фэншуй 9 дворцов Татьяны Панюшкиной 

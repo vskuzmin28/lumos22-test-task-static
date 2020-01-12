@@ -1,0 +1,37 @@
+mixin result(data)
+    - data = data || {};
+    section.block-result(class = data.class role = data.role)
+        .block-result__title
+            .container
+                .row
+                    .col-md-12
+                        h3.block-result__title-text В результате самостоятельного обучения по конспектам Вы: 
+
+        .block-result__box
+
+            .container.block-result__container
+                .row 
+                    .col-lg-3.block-result__margin
+                        .col-md-12.block-result__column
+                            img.mx-auto.d-block.block-result__column-preview(src="../img/result/result-1.png" alt="@@")
+                            p.block-result__column-desc Поймете основные положения 9-Дворцов и взаимодействие стихий
+                    
+                    .col-lg-6.block-result__margin
+                        .col-md-12.block-result__column
+                            img.mx-auto.d-block.block-result__column-preview(src="../img/result/result-2.png" alt="@@")
+                            p.block-result__column-desc Научитесь делать активации в помещениях для корректировки и уничтожения негативных энергий, для привлечения удачи, денег, здоровья, счастья, хороших отношений и т. д.
+                    
+                    .col-lg-3.block-result__margin
+                        .col-md-12.block-result__column
+                            img.mx-auto.d-block.block-result__column-preview(src="../img/result/result-3.png" alt="@@")
+                            p.block-result__column-desc Научитесь прогнозировать будущее человека по дате его рождения
+
+                    .col-lg-12
+                        .block-buy
+                            .block-buy__box.block-result__box-buy
+                                h3.block-buy__title Стоимость PDF-конспектов
+                                span.block-buy__cost 2 900 РУБ.
+                                a.button(href="#buy" title="") приобрести конспекты
+                                p.block-buy__desc Заказать и оплатить комплект конспектов можно в течение 36 часов
+                                p.block-buy__desc ДО КОНЦА ПРЕДЛОЖЕНИЯ ОСТАЛОСЬ:
+                                p.block-buy__timer-title ТАЙМЕР НА 36 ЧАСОВ

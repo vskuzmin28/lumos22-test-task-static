@@ -1,0 +1,33 @@
+mixin main(data)
+    - data = data || {};
+    .block-main(class = data.class role = data.role)
+
+        header.header
+            .container
+                .row
+                    .col-lg-12
+                        a.header__logo(href="#" title="")
+                            img(src="../img/logo.png" alt="@@")
+                        h2.header__title PDF-конспекты для самостоятельного изучения курса
+
+        .container.block-main__container
+            .row
+                .col-lg-7.col-md-12.wow.fadeIn
+                    h2.block-main__title ПРЕДСКАЗАТЕЛЬНЫЙ <br/> <span class="yellow">ФЕНШУЙ</span> <span>9</span> <span class="yellow">ДВОРЦОВ</span>
+                    .block-main__line
+                        .block-main__line-star
+                        .block-main__line-star
+                        .block-main__line-star
+                        .block-main__line-star
+                        .block-main__line-star
+                        .block-main__line-star
+                        .block-main__line-star
+                        .block-main__line-star
+                        .block-main__line-star
+
+                    p.block-main__desc Освойте базовые навыки системы прогностики по 9 дворцам, <br/> <span>ЧТОБЫ ПРОГНОЗИРОВАТЬ И КОРРЕКТИРОВАТЬ СВОЕ БУДУЩЕЕ</span> <br/> ДЛЯ ПОЛУЧЕНИЯ ДЕНЕГ, ЗДОРОВЬЯ И УДАЧИ
+
+                    p.block-main__desc Без обратной связи от Татьяны Панюшкиной и домашних заданий.
+
+                .col-lg-4.col-md-12
+                    img.block-main__preview.wow.fadeInRight(src="../img/main-preview.png" alt="@@")

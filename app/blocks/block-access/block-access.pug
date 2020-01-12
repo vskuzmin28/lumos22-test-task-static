@@ -1,0 +1,13 @@
+mixin access(data)
+    - data = data || {};
+    section.block-access(class = data.class role = data.role)
+        .container.block-access__container
+            .row
+                .col-lg-12
+                    h3.block-access__title ПОСЛЕ ОПЛАТЫ ВЫ ПОЛУЧАЕТЕ <strong>ДОСТУП К ЛИЧНОМУ КАБИНЕТУ.</strong>
+                .col-lg-6.wow.fadeInUp
+                    img.block-access__preview(src="../img/preview.png" alt="@@")
+                .col-lg-6.wow.fadeInRight
+                    ul.block-access__list
+                        li.block-access__list-item В личном кабинете выложены конспекты уроков. Их нужно выполнять пошагово. 
+                        li.block-access__list-item Формат курса подразумевает самостоятельную работу без обратной связи от Татьяны Панюшкиной и без проверки заданий.

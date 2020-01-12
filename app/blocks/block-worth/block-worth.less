@@ -1,0 +1,52 @@
+// block worth
+
+.block-worth {
+    min-height: 473px;
+    background: @gray;
+
+    &__title {
+        margin-top: 60px;
+        font-family: lator;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 42px;
+        text-align: center;
+
+        @media screen and (max-width: 990px) {
+            font-size: 24px;
+        }
+
+        strong {
+            color: @red;
+        }
+
+    }
+
+    &__column {
+        margin-top: 30px;
+
+        @media screen and (max-width: 990px) {
+            padding: 0 40px;
+        }
+
+        &-preview {
+            width: 295px;
+
+            @media screen and (max-width: 990px) {
+                width: 45%;
+            }
+
+        }
+
+        &-desc {
+            font-family: lator;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.87);
+        }
+    }
+
+}

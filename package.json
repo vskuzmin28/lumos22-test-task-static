@@ -21,7 +21,7 @@
     "gulp.spritesmith": "^6.10.1",
     "imagemin-pngquant": "^8.0.0",
     "less": "^2.7.2",
-    "pug": "^2.0.0-rc.2"
+    "pug": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
